@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="E2E Test Suite" duration-ms="28556" started-at="2021-08-01T22:01:33 PDT" finished-at="2021-08-01T22:02:02 PDT">
+    <groups>
+    </groups>
+    <test name="HOme Page Test Validations" duration-ms="17894" started-at="2021-08-01T22:01:33 PDT" finished-at="2021-08-01T22:01:51 PDT">
+      <class name="E2EProject.HomePageTest">
+        <test-method status="PASS" signature="diverInitiationTest()[pri:0, instance:E2EProject.HomePageTest@1f760b47]" name="diverInitiationTest" is-config="true" duration-ms="4993" started-at="2021-08-01T22:01:33 PDT" finished-at="2021-08-01T22:01:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diverInitiationTest -->
+        <test-method status="PASS" signature="validLinks()[pri:0, instance:E2EProject.HomePageTest@1f760b47]" name="validLinks" duration-ms="12009" started-at="2021-08-01T22:01:38 PDT" finished-at="2021-08-01T22:01:50 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.HomePageTest@1f760b47]" name="tearDown" is-config="true" duration-ms="805" started-at="2021-08-01T22:01:50 PDT" finished-at="2021-08-01T22:01:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EProject.HomePageTest -->
+    </test> <!-- HOme Page Test Validations -->
+    <test name="Login Page Test Validations" duration-ms="28556" started-at="2021-08-01T22:01:33 PDT" finished-at="2021-08-01T22:02:02 PDT">
+      <class name="E2EProject.LoginPageTest">
+        <test-method status="PASS" signature="diverInitiationTest()[pri:0, instance:E2EProject.LoginPageTest@4bc222e]" name="diverInitiationTest" is-config="true" duration-ms="4907" started-at="2021-08-01T22:01:33 PDT" finished-at="2021-08-01T22:01:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diverInitiationTest -->
+        <test-method status="PASS" signature="forgotPassword()[pri:0, instance:E2EProject.LoginPageTest@4bc222e]" name="forgotPassword" duration-ms="12136" started-at="2021-08-01T22:01:38 PDT" finished-at="2021-08-01T22:01:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="loginAction(java.lang.String,java.lang.String)[pri:0, instance:E2EProject.LoginPageTest@4bc222e]" name="loginAction" duration-ms="5640" started-at="2021-08-01T22:01:51 PDT" data-provider="getData" finished-at="2021-08-01T22:01:56 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAction -->
+        <test-method status="PASS" signature="loginAction(java.lang.String,java.lang.String)[pri:0, instance:E2EProject.LoginPageTest@4bc222e]" name="loginAction" duration-ms="4935" started-at="2021-08-01T22:01:56 PDT" data-provider="getData" finished-at="2021-08-01T22:02:01 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.LoginPageTest@4bc222e]" name="tearDown" is-config="true" duration-ms="716" started-at="2021-08-01T22:02:01 PDT" finished-at="2021-08-01T22:02:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EProject.LoginPageTest -->
+    </test> <!-- Login Page Test Validations -->
+  </suite> <!-- E2E Test Suite -->
+</testng-results>

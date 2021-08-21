@@ -1,0 +1,6 @@
+21:06:09.917 [main] ERROR Package2.loggertest1 - error message this is
+21:06:09.934 [main] FATAL Package2.loggertest1 - fatal message
+21:08:10.945 [main] ERROR Package2.loggertest1 - error message this is
+21:08:10.956 [main] FATAL Package2.loggertest1 - fatal message
+21:09:31.477 [main] ERROR Package2.loggertest1 - error message this is
+21:09:31.489 [main] FATAL Package2.loggertest1 - fatal message

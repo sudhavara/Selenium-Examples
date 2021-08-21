@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library>
+        <ANNOTATIONS>
+          <root url="file://$MODULE_DIR$/src/Resources" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/src/Resources" />
+          <root url="file://$MODULE_DIR$/src/Resources" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/src/Resources" />
+        </JAVADOC>
+        <NATIVE>
+          <root url="file://$MODULE_DIR$/src/Resources" />
+        </NATIVE>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src/Resources" />
+          <root url="file://$MODULE_DIR$/src/Resources" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/src/Resources" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/src/Resources" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/src/Resources" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://$MODULE_DIR$/src/Resources" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.2" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+  </component>
+</module>

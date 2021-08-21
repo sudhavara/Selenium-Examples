@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E Test Suite" parallel="tests">
+    <listeners>
+        <listener class-name="E2EProject.ListenersTest">
+         </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="HOme Page Test Validations">
+    <classes>
+            <class name="E2EProject.HomePageTest">
+                <methods>
+                    <include name="validLinks"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+            <test name="Login Page Test Validations">
+                <classes>
+            <class name="E2EProject.LoginPageTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Log4jPractice/Log4jPractice.iml" filepath="$PROJECT_DIR$/Log4jPractice/Log4jPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleMaven/SampleMaven.iml" filepath="$PROJECT_DIR$/SampleMaven/SampleMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumTest.iml" filepath="$PROJECT_DIR$/SeleniumTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNG/TestNGSample.iml" filepath="$PROJECT_DIR$/TestNG/TestNGSample.iml" />
+    </modules>
+  </component>
+</project>
